@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmenu"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvTurno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="TURNO : "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:fontFamily="@font/fugaz_one"></TextView>
+
+    <LinearLayout
+        android:id="@+id/llyNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/tvTurno"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombre1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="-"
+            android:textColor="@color/black"
+            app:fontFamily="@font/allan_bold"
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombre2"
+            android:layout_marginLeft="120dp"
+            android:text="-"
+            android:textSize="18sp"
+            app:fontFamily="@font/allan_bold"
+            android:textColor="@color/black"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/llyNombres"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPuntaje1"
+            android:layout_marginLeft="10dp"
+            android:text="Points:"
+            android:textSize="18sp"
+            app:fontFamily="@font/allan_bold"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPuntaje2"
+            android:layout_marginLeft="120dp"
+            android:text="Points:"
+            android:textSize="18sp"
+            app:fontFamily="@font/allan_bold"
+            android:textColor="@color/black"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyBtnsFila1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/llyPoints"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="1"></Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:layout_marginLeft="10dp"
+            android:text="2"></Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:layout_marginLeft="10dp"
+            android:text="3"></Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="4"></Button>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:layout_marginLeft="10dp"
+            android:text="5"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyBtnsFila2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/llyBtnsFila1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="6"></Button>
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="7"></Button>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="8"></Button>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="9"></Button>
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="10"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyBtnsFila3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/llyBtnsFila2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="11"></Button>
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="12"></Button>
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="13"></Button>
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="14"></Button>
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="15"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyBtnsFila4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/llyBtnsFila3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="16"></Button>
+
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="17"></Button>
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="18"></Button>
+
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight1"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="19"></Button>
+
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/bluelight2"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:text="20"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyPreguntas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llyBtnsFila4"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:fontFamily="@font/allan_bold"
+            android:text="PREGUNTA"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:scrollbars="vertical"
+            android:layout_marginTop="5dp"
+            android:id="@+id/etPreguntas"
+            android:clickable="false"
+            android:focusable="false"></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginTop="6dp"
+            android:textSize="18sp"
+            app:fontFamily="@font/allan_bold"
+            android:text="RESPUESTAS"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llyPreguntas"
+        android:id="@+id/llyRespuestas"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:id="@+id/rgRespuestas"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            app:fontFamily="@font/fugaz_one"
+            android:layout_height="wrap_content">
+ m
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:checked="false"></RadioButton>
+
+            <RadioButton
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb2"></RadioButton>
+
+            <RadioButton
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb3"></RadioButton>
+
+            <RadioButton
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb4"></RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

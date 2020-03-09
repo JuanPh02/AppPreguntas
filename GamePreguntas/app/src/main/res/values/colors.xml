@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="violet">#410082 </color>
+    <color name="red">#DB0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="violetlight">#8F66B7</color>
+    <color name="bluelight1">#01E8EF </color>
+    <color name="bluelight2">#59CCEA</color>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".TableroActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="- - - L O G  I N - - -"
+        android:textAlignment="center"
+        android:textSize="18sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLogJugador"
+        android:layout_marginTop="10dp"
+        android:text="- - - J U G A D O R  1 - - -"
+        android:textAlignment="center"
+        android:textSize="18sp"></TextView>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:inputType="textEmailAddress"
+    android:id="@+id/txtCorreoLog1"
+    android:hint="Correo Electronico"></EditText>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:inputType="textPassword"
+    android:id="@+id/txtPasswordLog1"
+    android:hint="Contraseña"></EditText>
+    
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Ingresar"
+        android:textSize="20sp"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="- - - C R E A R    U S U A R I O - - -"
+        android:textAlignment="center"
+        android:textSize="18sp"></TextView>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:id="@+id/txtNombre"
+    android:hint="Nombre"></EditText>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:inputType="textEmailAddress"
+    android:id="@+id/txtCorreoReg"
+    android:hint="Correo Electronico"></EditText>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:inputType="textPassword"
+    android:id="@+id/txtPasswordReg"
+    android:hint="Contraseña"></EditText>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="R e g i s t r a r"
+        android:textSize="20sp"></Button>
+
+</LinearLayout>
